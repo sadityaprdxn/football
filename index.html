@@ -1,0 +1,169 @@
+<!doctype html>
+
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en"> 
+
+<head>
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>LOGIN | EPL</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+
+</head>
+
+<body>
+  <!--container start-->
+  <div class="container loginPage">
+    <!--header section start-->
+    <header>
+      <div class="wrapper">
+        <ul>
+          <li class="horizontal-line">horizontal line</li>
+          <li>
+            <h1><a href="index.html" title="Logo">epl</a></h1>
+            <!-- <h1>
+              <a href="movies.html" title="Logo">
+                <img src="assets/images/logo.png" alt="Logo">
+              </a>
+            </h1> -->
+          </li>
+          <li class="horizontal-line">horizontal line</li>
+        </ul>
+      </div>
+    </header>
+    <!--header section start-->
+    <!--main section start-->
+    <main>
+      <!-- banner section start here -->
+      <section class="banner">
+        <div class="wrapper">
+          <div class="background-image">background image</div>
+          <div class="banner-content">
+            <h2>Lorem ipsum dolor sit amet consectetur <span>adipisicing elit.</span> Ducimus, rerum?</h2>
+            <ul>
+              <li><a href="#FIXME" title="Sign Up" class="sign-up-modal">sign up</a></li>
+              <li><a href="#FIXME" title="Sign In" class="sign-in-modal">sign In</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- banner section ends here -->
+
+      <!-- modal section start here -->
+      <section class="modal">
+        <div class="wrapper">
+          <!-- sign-in/sign-up form html starts here  -->
+          <div class="form-modal">
+            <!-- sign-up form start here -->
+            <form class="sign-up-form">
+              <h3>sign up</h3>
+              <span>use your email for registration</span>
+
+              <div class="form-group">
+                <label>username :</label>
+                <input  class="sign-up-name" type="text" data-regex="username_regex">
+                <a class="green" title="Green">green</a>
+                <a class="red" title="Red">red</a>
+                <span>name must be in between 2-10 characters and it should not contain any numbers</span>
+              </div>
+
+              <div class="form-group">
+                <label>e-mail id :</label>
+                <input  class="sign-up-email" type="text" data-regex="email_regex">
+                <a class="green" title="Green">green</a>
+                <a class="red" title="Red">red</a>
+                <span>please enter the valid email id or email id already exist</span>
+              </div>
+
+              <div class="form-group">
+                <label>password :</label>
+                <input  class="sign-up-password" type="password" data-regex="password_regex">
+                <a class="green" title="Green">green</a>
+                <a class="red" title="Red">red</a>
+                <span>password must contain atleast one special character and number</span>
+              </div>
+
+              <div class="form-controls">
+                <a class="sign-up"  href="#FIXME" title="Sign Up">sign up</a>
+              </div>
+            </form>
+            <!-- sign-up form ends here -->
+            <!-- sign-in form start here-->
+            <form class="sign-in-form">
+              <h3>sign in</h3>
+              <span>use your account to sign in.</span>
+
+              <div class="form-group">
+                <label>e-mail id :</label>
+                <input  class="sign-in-email" type="text"  data-regex="email_regex">
+                <a class="red" title="Red">red</a>
+                <span>please enter the valid email id or register first</span>
+              </div>
+
+              <div class="form-group">
+                <label>password :</label>
+                <input  class="sign-in-password" type="password">
+                <a class="red" title="Red">red</a>
+                <span>password does not match</span>
+              </div>
+
+              <span>forget your password ?</span>
+
+              <div class="form-controls">
+                <a class="sign-in" href="#FIXME" title="Sign In">sign in</a>
+              </div>
+            </form>
+            <!-- sign-in form end here -->
+
+            <!-- pannel-container for switching the forms -->
+            <div class="pannel-container">
+              <div class="pannel-background">
+                <div class="pannel-right">
+                  <h3>welcome back !</h3>
+                  <span>to keep connected with us please login with your account</span>
+                  <a href="#FIXME" title="Sign in" id="sign-in-form">sign in</a>
+                </div>
+
+                <div class="pannel-left">
+                  <h3>hello, friend !</h3>
+                  <span>enter your personal details and start the journey with us</span>
+                  <a href="#FIXME" title="Sign up" id="sign-up-form">sign up</a>
+                </div>  
+              </div>
+            </div>
+          </div>
+
+          <!-- division for modal control -->
+          <div class="modal-controls">
+            <a href="#FIXME" class="close" title="Close">close</a>
+          </div>
+        </div>
+      </section>
+      <!-- modal section ends here -->
+    </main>
+    <!--main section end-->
+
+    <!--footer section start-->
+    <footer> 
+      <div class="wrapper">
+        <ul class="social-icon">
+          <li><a href="#FIXME" target="_blank" class="facebook" title="Facebook" rel="nofollow">facebook</a></li>
+          <li><a href="#FIXME" target="_blank" class="instagram" title="Instagram" rel="nofollow">instagram</a></li>
+          <li><a href="#FIXME" target="_blank" class="twitter" title="Twitter" rel="nofollow">twitter</a></li>
+          <li><a href="#FIXME" target="_blank" class="youtube" title="You Tube" rel="nofollow">you tube</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--footer section end-->
+
+  </div>
+  <!--container end-->
+<!-- <script src="js/vendors/jquery-1.8.3.min.js"></script> -->
+<script src="assets/js/script.js"></script>
+</body>
+</html>
